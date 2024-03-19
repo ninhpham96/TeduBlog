@@ -4834,6 +4834,11 @@ npm-run-path@^4.0.1:
   dependencies:
     path-key "^3.0.0"
 
+nswag@^14.0.3:
+  version "14.0.3"
+  resolved "https://registry.yarnpkg.com/nswag/-/nswag-14.0.3.tgz#5a74472fdb97481799e97b715782896a0832d814"
+  integrity sha512-kAoGc4lZLgL8UiV+9Vb8tXgXuC6vK5K6VdYICdbiElzdiyiFuE+X3NhCgk31nl/2KsmV2kq6VA9d8b7TFB/acw==
+
 nth-check@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-2.1.1.tgz#c9eab428effce36cd6b92c924bdb000ef1f1ed1d"
@@ -5187,6 +5192,18 @@ postcss@8.4.35, postcss@^8.2.14, postcss@^8.4.23, postcss@^8.4.33, postcss@^8.4.
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+primeicons@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-6.0.1.tgz#431fa7c79825934eefd62087d8e1faa6a9e376ad"
+  integrity sha512-KDeO94CbWI4pKsPnYpA1FPjo79EsY9I+M8ywoPBSf9XMXoe/0crjbUK7jcQEDHuc0ZMRIZsxH3TYLv4TUtHmAA==
+
+primeng@^17.11.0:
+  version "17.11.0"
+  resolved "https://registry.yarnpkg.com/primeng/-/primeng-17.11.0.tgz#084fb09b872fa40ec085bd5ddd9e59d7270594c7"
+  integrity sha512-EtkXnE7I6gcrqjNDvUi4qvwTvwL/m3hwPJImoO/s088HDOBerwjN1c2Pq3bwGRG8Eg4Ga9nXdE/IrYj2mbAZLw==
+  dependencies:
+    tslib "^2.3.0"
 
 proc-log@^3.0.0:
   version "3.0.0"

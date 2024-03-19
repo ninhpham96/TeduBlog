@@ -7,8 +7,11 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  template: '<router-outlet></router-outlet>',
+  template: `
+  <p-toast position="top-center"></p-toast>
+  <router-outlet></router-outlet>`,
 })
+
 export class AppComponent implements OnInit {
   title = 'Tedu Blog Admin UI';  
 

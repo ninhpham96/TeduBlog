@@ -8,6 +8,7 @@ namespace TeduBlog.Data.SeedWorks;
 public class UnitOfWork : IUnitOfWork
 {
     private readonly TeduBlogContext _context;
+    public IPostRepository Posts { get; set; }
 
     public UnitOfWork(TeduBlogContext context, IMapper mapper)
     {
@@ -15,7 +16,6 @@ public class UnitOfWork : IUnitOfWork
         Posts = new PostRepository(_context, mapper);
     }
 
-    public IPostRepository Posts { get; set; }
 
     public async Task<int> CompleteAsync()
     {
